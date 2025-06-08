@@ -1,0 +1,82 @@
+body {
+  background-color:rgb(211, 211, 211);
+  color: #fff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 40px;
+}
+
+.container {
+  background-color:rgb(134, 134, 134);
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 2px 4px rgba(67, 67, 67);
+}
+
+input {
+  padding: 10px;
+  width: 70%;
+  font-size: 16px;
+  background-color: #4d4d4d;
+  border:none;
+  color: #fff;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 10px;
+  background-color: #555;
+  color: rgb(255, 255, 255);
+  border: 1px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  background-color: rgb(94, 0, 0);
+  color: #000;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+li span {
+  flex-grow: 1;
+  text-align: left;
+  cursor: pointer;
+}
+
+li span.concluida {
+  text-decoration: line-through;
+  color: gray;
+}
+
+li button {
+  margin-left: 15px;
+  padding: 5px 10px;
+  background-color: transparent;
+  color: red;
+  border: 1px solid red;
+  cursor: pointer;
+}
+
+li button:hover {
+  background-color: red;
+  color: black;
+}

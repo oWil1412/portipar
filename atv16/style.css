@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+    background-color:rgb(211, 211, 211);
+    font-family:"roboto", sans-serif;
+}
+html{
+    display:grid;
+    padding:1%;
+    align-items:center;
+}
+body{
+    align-items:center;
+    justify-content:center;
+    /* border:1px solid red; */
+}
+h4{
+    font-weight:700;
+}
+button{
+    padding:10px;
+    border-radius:10px;
+    border:1px solid black;
+    transition:0.3s ease-in-out;
+    margin:5px 0px 0px 0px;
+    z-index:100;
+}
+button:hover{
+    scale:1.05;
+}
+input{
+    padding:5px;
+    border:1px solid black;
+    border-radius:10px;
+}
+p{
+    font-size:40px;
+    font-weight:300;
+}
+h4{
+    display:none;
+}
+header{
+    text-align:center;
+}
+.invalido{
+    color:red;
+}
+.valido{
+    color:green;
+}
+.senha{
+    position:relative;
+    width:300px;
+}
+.senha input{
+    width:100%;
+    font-size:16px;
+}
+.senha button{
+    position: absolute;
+    right:0px;
+    top:50%;
+    transform:translateY(-60%);
+    background:none;
+    border:none;
+    cursor:pointer;
+    font-size:18px;
+}
+ul{
+    list-style-type:none;
+}

@@ -1,0 +1,142 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color:rgb(211, 211, 211);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background:rgb(134, 134, 134);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 300px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  color: white;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  background-color: #4d4d4d;
+  color: white;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background-color:#555;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition:0.3s ease-in-out
+}
+button:hover {
+  background-color: #b30000; /* Vermelho escuro no hover */
+}
+#resultado {
+  margin-top: 5px;
+  margin-bottom:5px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 5px;
+  border-radius: 6px;
+  min-height: 20px;
+}
+
+#resultado.normal {
+  background: #2ecc40;
+  color: #fff;
+}
+#resultado.abaixo {
+  background: #3498db;
+  color: #fff;
+}
+#resultado.sobrepeso {
+  background: #ffb300;
+  color: #222;
+}
+#resultado.obesidade {
+  background: #ff3333;
+  color: #fff;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+#barra-imc {
+  position: relative;
+  display: flex;
+  height: 28px;
+  margin: 0px 0 10px 0;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #222;
+  box-shadow: 0 2px 8px #0003;
+}
+
+.faixa {
+  flex: 1;
+  color: #fff;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.85;
+}
+
+#indicador {
+  position: absolute;
+  top: -8px;
+  width: 0;
+  height: 44px;
+  border-left: 4px solid #fff;
+  left: 0;
+  transition: left 0.4s;
+  pointer-events: none;
+}
+
+#tabela-imc {
+  width: 100%;
+  margin-top: 6px;
+  border-collapse: collapse;
+  font-size: 0.95em;
+}
+#tabela-imc th, #tabela-imc td {
+  border: 1px solid #444;
+  padding: 6px 0;
+  text-align: center;
+}
+#tabela-imc th {
+  background: #404040;
+  color: #fff;
+}
+#tabela-imc tr:nth-child(even) {
+  background: #404040;
+}
+#tabela-imc tr:nth-child(odd) {
+  background: #404040;
+}

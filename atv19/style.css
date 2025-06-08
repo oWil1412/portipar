@@ -1,0 +1,22 @@
+body{
+    background-color:rgb(211, 211, 211);
+}
+.edits{
+    text-align:center;
+}
+button{
+    padding:20px;
+    font-size:20px;
+    border-radius:10px;
+    border:none;
+    box-shadow:0px 2px 2px 0px rgb(130, 130, 130);
+    margin:5px;
+    transition:ease-in-out 0.3s; 
+}
+button:hover{
+    scale:1.10;
+}
+#editor{
+    padding:10px;
+    font-size:30px;
+}

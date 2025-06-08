@@ -1,0 +1,22 @@
+body {
+  background-color: #ffe5e5;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 30px;
+  color: #990000;
+}
+
+input, button {
+  padding: 10px;
+  margin: 5px;
+}
+
+.item {
+  margin: 5px;
+}
+
+.remover {
+  color: red;
+  margin-left: 10px;
+  cursor: pointer;
+}

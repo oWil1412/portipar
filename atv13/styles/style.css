@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#tabuleiro {
+  width: 180px;
+  height: 180px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 60px);
+  grid-template-rows: repeat(3, 60px);
+  gap: 0;
+}
+
+.celula {
+  border: 1px solid #ed0808;
+  font-size: 30px;
+  text-align: center;
+  line-height: 60px;
+  cursor: pointer;
+}
+
+#msg {
+  font-weight: bold;
+  margin: 10px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px 10px;
+}

@@ -1,0 +1,88 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+html, body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    background-color:white;
+}
+html::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("unipar.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:0.65;
+    z-index: -1;
+
+}
+body{
+    align-content:center;
+    align-items:center;
+    background-color:white;
+    height:50vh;
+    width:20%;
+    border-radius:30px;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    padding:10px;
+    box-shadow:4px 4px 4px 0px rgb(132, 132, 132);
+}
+img{
+    height:70%;
+}
+.header{
+    height:25%;
+    width:100%;
+    margin-top:10px;
+}
+.login{
+    display:block;
+    height:50%;
+    width:100%;
+    align-content:center;
+}
+.login input{
+    margin:10px;
+    border:none;
+    width:90%;
+    height:20px;
+}
+.acesso{
+    height:20%;
+    width:100%;
+}
+button{
+    height:100%;
+    width:60%;
+    border-radius:30px;
+    background-color:red;
+    color:white;
+    font-size:17px;
+    border:none;
+    box-shadow:4px 2px 2px 0px gray;
+    transition:ease-in-out 0.2s;
+}
+button:hover{
+    scale:1.05;
+}
+input{
+    border:none;
+    border-bottom:1px solid rgb(150, 150, 150);
+    background:transparent;
+    padding: 5px;
+    color: #000;
+}
+input:focus{
+  border-bottom:1px solid rgb(150, 150, 150);
+  outline:none; /*tira aquela borda horrivel*/  
+}
