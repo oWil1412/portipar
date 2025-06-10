@@ -52,7 +52,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #222;
+  background-color:rgb(134, 134, 134);
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 8px;
@@ -72,13 +72,12 @@ li span.concluida {
 li button {
   margin-left: 15px;
   padding: 5px 10px;
-  background-color: transparent;
-  color: red;
-  border: 1px solid red;
+  background-color:#555;
+  color: white;
+  border:none;
   cursor: pointer;
 }
 
 li button:hover {
-  background-color: red;
-  color: black;
+  background-color:#464646;
 }
