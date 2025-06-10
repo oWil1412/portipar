@@ -3,41 +3,43 @@ body {
   color: #fff;
   font-family: Arial, sans-serif;
   text-align: center;
-  padding: 40px;
+  padding: 20px;
 }
 
 .container {
   background-color:rgb(134, 134, 134);
   padding: 30px;
   border-radius: 12px;
-  max-width: 500px;
+  width: 300px;
   margin: auto;
   box-shadow: 0 2px 4px rgba(67, 67, 67);
 }
 
 input {
   padding: 10px;
-  width: 70%;
+  width: 92%;
   font-size: 16px;
   background-color: #4d4d4d;
   border:none;
   color: #fff;
+  border-radius:5px;
 }
 
 button {
+  border-radius:5px;
+  margin-top:10px;
+  width:100%;
   padding: 10px 20px;
   font-size: 16px;
-  margin-left: 10px;
   background-color: #555;
   color: rgb(255, 255, 255);
   border: 1px;
   cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s;
 }
 
 button:hover {
-  background-color: rgb(94, 0, 0);
-  color: #000;
+  background-color:#464646;
 }
 
 ul {
